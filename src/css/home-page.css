@@ -1,0 +1,39 @@
+.home-page {
+    background: url(../images/homepage-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-page-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+}
+
+.home-page-container .title {
+    font-size: 6rem;
+    line-height: 5.2rem;
+}
+
+.home-page-container .title,
+.home-page-container .title span {
+    font-family: var(--main-title-font);
+}
+
+.home-page-container .description {
+    letter-spacing: .02rem;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-top: 1.4rem;
+}
+
+.home-page span {
+    color: var(--light-main-color);
+}
+
+.big-font {
+    font-size: 2.3rem;
+}

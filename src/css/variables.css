@@ -10,4 +10,8 @@
     --soft-dark-color: #212121;  
     --strong-dark-color: #070607;
     --counter-main-color: #E21F33;
+
+    --mobile-width: 320px;
+
+    --italic-text: italic;
 }
