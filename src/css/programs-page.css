@@ -1,0 +1,50 @@
+.program-iniciativas {
+    background-color: var(--soft-dark-color);
+}
+
+.program-iniciativas-container {
+    padding: 6rem 1.4rem
+}
+
+.picture-frame {
+    border: solid var(--light-color);
+    margin-top: 1.8rem;
+}
+
+.program-text-container .title {
+    font-size: 2.4rem;
+    font-style: var(--italic-text);
+    line-height: 2.2rem;
+    font-weight: var(--bold-font);
+}
+
+.subtitle-icon {
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+
+.subtitle-icon .icon i, .subtitle-icon .subtitle {
+    color: var(--light-main-color);
+}
+
+.texts {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.pic-text .texts .icon {
+    font-size: 3rem;
+}
+
+.texts .subtitle {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.text .description {
+    font-style: var(--italic-text);
+    width: 98%;
+}
