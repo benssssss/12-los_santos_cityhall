@@ -1,10 +1,16 @@
-.phone-main-container {
+.phone-main-container p {
     font-family: var(--phone-font);
+    letter-spacing: .05rem;
 }
 
 .phone-bluecase {
     background-color: var(--light-main-color);
-    padding: .5rem;
+    padding: .3rem;
+}
+
+.display-black,
+.phone-bluecase {
+    border-radius: .7rem;
 }
 
 .display-black {
@@ -13,15 +19,24 @@
 }
 
 .top {
+    border-radius: .7rem .7rem 0 0;
     background-color: var(--light-color);
     height: 55px;
-    width: 100%;
+    width: var(--max-width)
 }
+
+/* notification-bar */
 
 .notification-bar,
 .bar-info,
-.date-network {
+.date-network,
+.clock,
+.network {
     display: flex
+}
+
+.bar-info {
+    gap: 2rem;
 }
 
 .notification-bar {
@@ -30,9 +45,20 @@
     padding: .3rem;
 }
 
+.date-network,
+.clock,
 .network {
-    align-items: flex-end;
-    display: flex;
+    align-items: last baseline;
+}
+
+.date-network,
+.clock {
+    gap: .8rem;
+}
+
+/* network bars*/
+
+.network {
     gap: .2rem;
 }
 
@@ -53,12 +79,25 @@
     height: 21px;
 }
 
-.notification-bar img {
-    height: 15px
+
+/* battery */
+
+.battery {
+    align-items: flex-end;
+    display: flex;
+    font-size: 1.3rem;
 }
 
 .app-name {
     background-color: var(--light-main-color);
+    padding: .1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.app-name p {
+    font-size: 2.4rem;
+    color: var(--strong-dark-color);
 }
 
 .app-icons {
@@ -66,21 +105,21 @@
 }
 
 .main-screen {
-    background-color: var(--soft-dark-color);
+    background: var(--soft-dark-color) url(../images/ls-logo-opacity-0.3.png) center no-repeat;
+    background-size: 250px;
     height: 250px;
-}
-
-.buttons {
-    height: 45px;
-    background-color: var(--soft-dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom {
-    height: 60px;
+    padding: .3rem;
     background-color: var(--soft-dark-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0 0 .7rem .7rem;
 }
 
 .home-button {
@@ -88,4 +127,67 @@
     width: 50px;
     border: solid var(--light-color) 4px;
     border-radius: 50%;
+}
+
+/* ---------------------------- */
+
+.buttons {
+    display: flex;
+    background-color: var(--strong-dark-color);
+    padding: .2rem 0;
+    gap: .1rem;
+}
+
+.first-button {
+    height: 30px;
+    width: 33%;
+    background-color: var(--soft-dark-color);
+}
+
+.button-icons {
+    font-size: 1.5rem;
+    background-color: var(--soft-dark-color);
+    width: 33%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button:hover {
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: var(--counter-main-color);
+    color: var(--light-color);
+}
+
+.app-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+
+.app-icons-container {
+    display: flex;
+    gap: .7rem;
+}
+
+.app-icon {
+    font-size: 3rem;
+    background-color: var(--light-main-color);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.app-icon:hover {
+    transition: 0.4s ease-in-out;
+    background-color: var(--light-color);
+    color: var(--soft-dark-color);
 }

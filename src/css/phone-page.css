@@ -6,11 +6,13 @@
 .phone-page-container {
     display: flex;
     flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 5rem 1.4rem
 }
 
 .main-title,
 .life-invader-type {
-    font-size: 1.9rem;
+    font-size: 1.94rem;
     font-weight: var(--bold-font);
 }
 
@@ -19,11 +21,11 @@
 }
 
 .phone-page-text-container .los-santos {
-    font-size: 2.7rem;
+    font-size: 2.76rem;
 }
 
 .final-line {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
 }
 
 .sponsorship {
