@@ -7,11 +7,12 @@
     --contrast-color: #FAB725;
     --light-color: #F5F6F6;
     --light-main-color: #8CC3EA;
-    --soft-dark-color: #212121;  
+    --soft-dark-color: #212121;
     --strong-dark-color: #070607;
     --counter-main-color: #E21F33;
 
     --mobile-width: 320px;
-
     --italic-text: italic;
+
+    --bold-font: 700;
 }

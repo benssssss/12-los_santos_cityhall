@@ -8,10 +8,7 @@
     src: url(../font/Hollywood-Bold.ttf);
 }
 
-* {
-    color: var(--light-color);
-    font-family: var(--main-font);
-}
+
 
 .header-container,
 .home-page-container,
@@ -20,9 +17,18 @@
 .services-container,
 .city-guide-container,
 .footer-container {
-   
     padding: 1.4rem;
     width: var(--mobile-width);
 }
 
+.light-main-color {
+    color: var(--light-main-color);
+}
 
+.counter-main-color {
+    color: var(--counter-main-color);
+}
+
+.strong-dark-color {
+    color: var(--strong-dark-color);
+}

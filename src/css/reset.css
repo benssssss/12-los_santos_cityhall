@@ -4,6 +4,8 @@
     box-sizing: border-box;
     border: none;
     outline: none;
+    color: var(--light-color);
+    font-family: var(--main-font);
 }
 
 a {

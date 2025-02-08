@@ -1,0 +1,91 @@
+.phone-main-container {
+    font-family: var(--phone-font);
+}
+
+.phone-bluecase {
+    background-color: var(--light-main-color);
+    padding: .5rem;
+}
+
+.display-black {
+    background-color: var(--strong-dark-color);
+    padding: .3rem;
+}
+
+.top {
+    background-color: var(--light-color);
+    height: 55px;
+    width: 100%;
+}
+
+.notification-bar,
+.bar-info,
+.date-network {
+    display: flex
+}
+
+.notification-bar {
+    background-color: var(--soft-dark-color);
+    justify-content: space-between;
+    padding: .3rem;
+}
+
+.network {
+    align-items: flex-end;
+    display: flex;
+    gap: .2rem;
+}
+
+.network-bars {
+    width: 5px;
+    background-color: var(--light-main-color);
+}
+
+.low-bar {
+    height: 7px;
+}
+
+.medium-bar {
+    height: 14px;
+}
+
+.high-bar {
+    height: 21px;
+}
+
+.notification-bar img {
+    height: 15px
+}
+
+.app-name {
+    background-color: var(--light-main-color);
+}
+
+.app-icons {
+    display: flex;
+}
+
+.main-screen {
+    background-color: var(--soft-dark-color);
+    height: 250px;
+}
+
+.buttons {
+    height: 45px;
+    background-color: var(--soft-dark-color);
+}
+
+.bottom {
+    height: 60px;
+    background-color: var(--soft-dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-button {
+    height: 50px;
+    width: 50px;
+    border: solid var(--light-color) 4px;
+    border-radius: 50%;
+}
