@@ -20,11 +20,12 @@
 
 .subtitle-icon {
     display: flex;
-    gap: .6rem;
+    gap: 1rem;
     align-items: center;
 }
 
-.subtitle-icon .icon i, .subtitle-icon .subtitle {
+.subtitle-icon .icon i,
+.subtitle-icon .subtitle {
     color: var(--light-main-color);
 }
 
@@ -36,11 +37,11 @@
 }
 
 .pic-text .texts .icon {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .texts .subtitle {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2rem;
 }
 

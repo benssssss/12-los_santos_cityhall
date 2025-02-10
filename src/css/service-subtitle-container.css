@@ -1,0 +1,25 @@
+.card .title-container {
+    background-color: var(--light-color);
+}
+
+.title-container .subtitle {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--strong-dark-color);
+    padding: .2rem .3rem;
+}
+
+.description-container {
+    background-color: var(--soft-dark-color);
+}
+
+.title-container .subtitle,
+.description-container .description {
+    padding: .2rem .3rem;
+}
+
+.description-container .description {
+    font-size: .7rem;
+    width: 90%;
+    font-style: var(--italic-text);
+}
