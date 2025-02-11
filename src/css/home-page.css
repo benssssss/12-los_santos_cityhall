@@ -8,6 +8,7 @@
     flex-direction: column;
     height: 100vh;
     backdrop-filter: blur(2px);
+    justify-content: center;
 }
 
 .home-page-container .title {
