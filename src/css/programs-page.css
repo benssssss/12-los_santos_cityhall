@@ -7,9 +7,13 @@
     padding: 6rem 1.4rem
 }
 
+.program-text-container .title,
+.text .description {
+    font-style: var(--italic-text);
+}
+
 .program-text-container .title {
     font-size: 2.4rem;
-    font-style: var(--italic-text);
     line-height: 2.2rem;
     font-weight: var(--bold-font);
 }
@@ -26,7 +30,6 @@
 }
 
 .texts {
-    display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
     margin-top: 2.5rem;
@@ -42,6 +45,5 @@
 }
 
 .text .description {
-    font-style: var(--italic-text);
     width: 98%;
 }

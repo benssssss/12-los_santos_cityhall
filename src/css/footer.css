@@ -1,11 +1,9 @@
 .footer {
     background: url(../images/kifflom-pattern.svg) var(--light-main-color) center;
     background-size: 1920px;
-
 }
 
 .cards-container {
-    display: flex;
     flex-direction: column;
     gap: 1rem;
 }
@@ -22,23 +20,22 @@
 
 .footer .card .title {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: var(--bold-font);
     color: var(--light-main-color);
 }
 
 .footer .card .description {
     font-size: .8rem;
     font-style: var(--italic-text);
-    font-weight: 400;
+    font-weight: var(--thin-font);
 }
 
 .footer .card .description span {
-    font-weight: 700;
+    font-weight: var(--bold-font);
     color: var(--light-main-color);
 }
 
 .social-media-footer {
-    display: flex;
     justify-content: center;
     gap: .6rem;
 }

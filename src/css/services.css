@@ -10,7 +10,7 @@
 
 .services-container .title,
 .services-container .title span {
-    font-weight: 900;
+    font-weight: var(--black-bold-font);
     font-style: var(--italic-text);
 }
 
@@ -20,7 +20,6 @@
 }
 
 .services-container {
-    display: flex;
     flex-direction: column-reverse;
     padding: 6rem 1.4rem;
 }
@@ -30,7 +29,6 @@
 }
 
 .cards {
-    display: flex;
     flex-direction: column;
     gap: .5rem;
 }

@@ -4,7 +4,7 @@
 
 .title-container .subtitle {
     font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: var(--bold-font);
     color: var(--strong-dark-color);
 }
 
