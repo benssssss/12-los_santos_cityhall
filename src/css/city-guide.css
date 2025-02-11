@@ -1,5 +1,7 @@
 .city-guide {
     background-color: var(--soft-dark-color);
+    background-image: url(../images/guia-da-cidade-bg-detail.png);
+    background-position: center;
 }
 
 .city-guide-container {
@@ -15,18 +17,14 @@
     gap: 1rem;
 }
 
-.text-container .title,
-.subtitle {
-    color: var(--contrast-color);
-}
-
-.text-container .title {
-    font-size: 4rem;
-    line-height: 3.7rem;
+.city-guide .city-guide-text-container .text-container .title {
+    width: 100%;
+    display: block;
 }
 
 .text-container .subtitle {
     font-size: 1.5rem;
+    color: var(--contrast-color);
 }
 
 .card-container .description {

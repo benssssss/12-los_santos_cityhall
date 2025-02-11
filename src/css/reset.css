@@ -18,4 +18,5 @@ ul {
 
 img {
     max-width: var(--max-width);
+    display: block;
 }

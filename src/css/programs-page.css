@@ -1,14 +1,10 @@
 .program-iniciativas {
-    background-color: var(--soft-dark-color);
+    background: var(--soft-dark-color) url(../images/1x/programas-bg-pattern.png) repeat center;
+    background-size: cover;
 }
 
 .program-iniciativas-container {
     padding: 6rem 1.4rem
-}
-
-.picture-frame {
-    border: solid var(--light-color);
-    margin-top: 1.8rem;
 }
 
 .program-text-container .title {

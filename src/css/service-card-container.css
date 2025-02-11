@@ -3,19 +3,19 @@
 }
 
 .title-container .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 800;
     color: var(--strong-dark-color);
-    padding: .2rem .3rem;
 }
 
 .description-container {
-    background-color: var(--soft-dark-color);
+    background: var(--soft-dark-color) url(../images/stars-pattern.svg) center;
+    background-size: 350px;
 }
 
 .title-container .subtitle,
 .description-container .description {
-    padding: .2rem .3rem;
+    padding: .2rem .5rem;
 }
 
 .description-container .description {

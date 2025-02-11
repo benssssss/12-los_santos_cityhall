@@ -1,5 +1,7 @@
 .footer {
-    background-color: var(--light-main-color);
+    background: url(../images/kifflom-pattern.svg) var(--light-main-color) center;
+    background-size: 1920px;
+
 }
 
 .cards-container {

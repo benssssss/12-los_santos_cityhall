@@ -31,6 +31,10 @@
     width: var(--mobile-width);
 }
 
+.display-flex {
+    display: flex;
+}
+
 .light-main-color {
     color: var(--light-main-color);
 }

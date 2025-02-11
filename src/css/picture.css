@@ -1,0 +1,8 @@
+.picture-frame {
+    border: solid var(--light-color);
+    margin-top: 1.8rem;
+}
+
+.yellow-frame {
+    border: solid var(--contrast-color);
+}

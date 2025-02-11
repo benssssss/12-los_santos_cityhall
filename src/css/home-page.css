@@ -1,14 +1,11 @@
 .home-page {
-    background: url(../images/homepage-bg.png);
+    background: url(../images/homepage-bg.png) center;
     background-size: cover;
-    background-position: center;
 }
 
 .home-page-container {
     text-align: center;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100vh;
     backdrop-filter: blur(2px);
 }
@@ -26,7 +23,7 @@
 .home-page-container .description {
     letter-spacing: .02rem;
     font-size: .9rem;
-    font-weight: 500;
+    font-weight: var(--medium-font);
     margin-top: 1.4rem;
 }
 

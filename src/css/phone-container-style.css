@@ -3,9 +3,10 @@
     letter-spacing: .05rem;
 }
 
-.phone-bluecase {
+.phone-bluecase,
+.network-bars,
+.app-name {
     background-color: var(--light-main-color);
-    padding: .3rem;
 }
 
 .display-black,
@@ -13,9 +14,13 @@
     border-radius: .7rem;
 }
 
+.phone-bluecase,
 .display-black {
-    background-color: var(--strong-dark-color);
     padding: .3rem;
+}
+
+.display-black {
+    background: var(--strong-dark-color);
 }
 
 .top {
@@ -24,8 +29,6 @@
     height: 55px;
     width: var(--max-width)
 }
-
-/* notification-bar */
 
 .notification-bar,
 .bar-info,
@@ -56,15 +59,12 @@
     gap: .8rem;
 }
 
-/* network bars*/
-
 .network {
     gap: .2rem;
 }
 
 .network-bars {
     width: 5px;
-    background-color: var(--light-main-color);
 }
 
 .low-bar {
@@ -79,19 +79,13 @@
     height: 21px;
 }
 
-
-/* battery */
-
 .battery {
     align-items: flex-end;
-    display: flex;
     font-size: 1.3rem;
 }
 
 .app-name {
-    background-color: var(--light-main-color);
     padding: .1rem;
-    display: flex;
     justify-content: center;
 }
 
@@ -100,23 +94,23 @@
     color: var(--strong-dark-color);
 }
 
-.app-icons {
-    display: flex;
-}
-
 .main-screen {
-    background: var(--soft-dark-color) url(../images/ls-logo-opacity-0.3.png) center no-repeat;
+    background: url(../images/ls-logo-opacity-0.3.png) center no-repeat;
     background-size: 250px;
     height: 250px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.bottom,
+.first-button,
+.main-screen,
+.button-icons {
+    background-color: var(--soft-dark-color);
+}
+
 .bottom {
     padding: .3rem;
-    background-color: var(--soft-dark-color);
-    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0 0 .7rem .7rem;
@@ -129,26 +123,20 @@
     border-radius: 50%;
 }
 
-/* ---------------------------- */
-
 .buttons {
-    display: flex;
     background-color: var(--strong-dark-color);
     padding: .2rem 0;
     gap: .1rem;
 }
 
-.first-button {
+.first-button,
+.button-icons {
     height: 30px;
     width: 33%;
-    background-color: var(--soft-dark-color);
 }
 
 .button-icons {
     font-size: 1.5rem;
-    background-color: var(--soft-dark-color);
-    width: 33%;
-    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,14 +150,12 @@
 }
 
 .app-text-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: .4rem;
 }
 
 .app-icons-container {
-    display: flex;
     gap: .7rem;
 }
 

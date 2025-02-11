@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/all.min.css">
+    <link rel="stylesheet" href="src/css/picture.css">
     <link rel="stylesheet" href="src/css/home-page.css">
     <link rel="stylesheet" href="src/css/phone-page.css">
     <link rel="stylesheet" href="src/css/phone-container-style.css">
     <link rel="stylesheet" href="src/css/programs-page.css">
     <link rel="stylesheet" href="src/css/services.css">
-    <link rel="stylesheet" href="src/css/service-subtitle-container.css">
+    <link rel="stylesheet" href="src/css/service-card-container.css">
     <link rel="stylesheet" href="src/css/city-guide.css">
     <link rel="stylesheet" href="src/css/footer.css">
     <title>Document</title>
@@ -25,7 +26,7 @@
 
         <main class="main">
             <section class="home-page">
-                <div class="home-page-container">
+                <div class="home-page-container display-flex justify-center">
                     <h1 class="title"><span>LOS</span> SANTOS</h1>
                     <p class="description"><span>SEJA BEM-VINDO</span> AO PORTAL OFICIAL DA CIDADE MAIS CAÓTICA,
                         VIBRANTE E CHEIA DE PERSONALIDADES
@@ -34,7 +35,7 @@
             </section>
 
             <section class="phone-page">
-                <div class="phone-page-container">
+                <div class="phone-page-container display-flex">
 
                     <div class="phone-main-container">
                         <div class="phone-bluecase">
@@ -61,18 +62,18 @@
                                         </div>
                                     </div>
 
-                                    <div class="battery">
+                                    <div class="battery display-flex">
                                         <i class="fa-solid fa-battery-three-quarters"></i>
                                     </div>
                                 </div>
 
-                                <div class="app-name">
+                                <div class="app-name display-flex">
                                     <p>LSAPP</p>
                                 </div>
 
-                                <div class="main-screen">
-                                    <div class="app-text-container">
-                                        <div class="app-icons-container">
+                                <div class="main-screen display-flex">
+                                    <div class="app-text-container display-flex">
+                                        <div class="app-icons-container display-flex">
                                             <i class="app-icon fa-solid fa-message"></i>
                                             <i class="app-icon fa-solid fa-location-dot"></i>
                                             <i class="app-icon fa-solid fa-phone"></i>
@@ -82,13 +83,13 @@
                                     </div>
                                 </div>
 
-                                <div class="buttons">
+                                <div class="buttons display-flex">
                                     <div class="first-button"></div>
                                     <i class="button-icons fa-solid fa-plus"></i>
                                     <i class="back-button button-icons counter-main-color fa-solid fa-rotate-left"></i>
                                 </div>
 
-                                <div class="bottom">
+                                <div class="bottom display-flex">
                                     <div class="home-button"></div>
                                 </div>
 
@@ -117,19 +118,18 @@
 
             <section class="program-iniciativas">
                 <div class="program-iniciativas-container">
-
                     <div class="program-text-container">
-                        <h2 class="title light-main-color">PROGRAMAS E INICIATIVAS</h2>
+
+                        <img class="title" src="src/images/program-title-desk.png" alt="">
+
                     </div>
-
-
 
                     <div class="pic-text">
 
                         <div class="program-picture-container">
                             <div class="picture-frame">
 
-                                <img class="first" src="src/images/nature.png" alt="">
+                                <img src="src/images/nature-opic.png" alt="">
                             </div>
                         </div>
 
@@ -191,7 +191,7 @@
                     <div class="service-picture-container">
                         <div class="picture-frame">
 
-                            <img class="first" src="src/images/service-composition.png" alt="">
+                            <img class="first" src="src/images/security-composition.png" alt="">
                         </div>
                     </div>
 
@@ -248,7 +248,7 @@
 
                     <div class="city-guide-picture-container">
 
-                        <div class="picture-frame">
+                        <div class="picture-frame yellow-frame">
                             <img class="first" src="src/images/mount-chilliad.png" alt="">
                         </div>
 
@@ -256,7 +256,7 @@
 
                     <div class="city-guide-text-container">
                         <div class="text-container">
-                            <h2 class="title">GUIA DA CIDADE</h2>
+                            <img class="title" src="src/images/city-guide-title-mobile.png" alt="">
 
                             <div class="card-container">
                                 <h3 class="subtitle">TURISMO LOCAL</h3>

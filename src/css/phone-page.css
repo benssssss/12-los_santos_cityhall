@@ -1,10 +1,10 @@
 .phone-page {
-    background-color: var(--light-color);
+    background: var(--light-color) url(../images/cellphone-backgroud.svg) center;
+    background-size: 1440px;
     min-height: 100vh;
 }
 
 .phone-page-container {
-    display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
     padding: 5rem 1.4rem
@@ -34,5 +34,5 @@
 }
 
 .life-invader-type span {
-    font-weight: 300;
+    font-weight: var(--thin-font);
 }

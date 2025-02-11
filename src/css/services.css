@@ -1,5 +1,6 @@
 .services {
-    background-color: var(--light-main-color);
+    background: url(../images/service-bg-datail-8.png) var(--light-main-color) no-repeat center;
+    background-size: 1152px;
 }
 
 .maintitle .title {
@@ -7,7 +8,8 @@
     line-height: 3.2rem;
 }
 
-.services-container .title, .services-container .title span {
+.services-container .title,
+.services-container .title span {
     font-weight: 900;
     font-style: var(--italic-text);
 }
