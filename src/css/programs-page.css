@@ -1,6 +1,5 @@
 .program-iniciativas {
-    background: var(--soft-dark-color) url(../images/1x/programas-bg-pattern.png) repeat center;
-    background-size: cover;
+    background: var(--soft-dark-color);
 }
 
 .program-iniciativas-container {
