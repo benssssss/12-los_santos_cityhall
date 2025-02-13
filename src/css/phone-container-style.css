@@ -6,7 +6,7 @@
 .phone-bluecase,
 .network-bars,
 .app-name {
-    background-color: var(--light-main-color);
+    background-color: var(--counter-main-color);
 }
 
 .display-black,
@@ -68,7 +68,7 @@
 }
 
 .low-bar {
-    height: 7px;
+    height: 5px;
 }
 
 .medium-bar {
@@ -161,7 +161,7 @@
 
 .app-icon {
     font-size: 3rem;
-    background-color: var(--light-main-color);
+    background-color: var(--counter-main-color);
     height: 70px;
     width: 70px;
     display: flex;

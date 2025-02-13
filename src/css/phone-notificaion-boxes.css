@@ -1,13 +1,35 @@
-.notification-box {
+#notification-box-chat {
     position: absolute;
-    background-color: var(--light-main-color);
+    background-color: var(--light-color);
     font-size: 1rem;
     text-align: center;
+    height: 160px;
     border-radius: 0 1.5rem;
+    visibility: hidden;
+}
+
+#notification-box-map {
+    position: absolute;
+    background-color: var(--light-color);
+    font-size: 1rem;
+    text-align: center;
+    height: 160px;
+    border-radius: 0 1.5rem;
+    visibility: hidden;
+}
+
+#notification-box-phone {
+    position: absolute;
+    background-color: var(--light-color);
+    font-size: 1rem;
+    text-align: center;
+    height: 160px;
+    border-radius: 0 1.5rem;
+    visibility: hidden;
 }
 
 .box-text p {
-    padding: .8rem;
+    padding: 1rem;
     color: var(--strong-dark-color);
     font-family: var(--phone-font);
 }
@@ -18,4 +40,18 @@
     height: 2px;
 }
 
-.box {}
+.box {
+    display: flex;
+}
+
+.box i {
+    padding: .6rem;
+    font-size: 1.2rem;
+    color: var(--counter-main-color);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.box i:hover {
+    color: var(--strong-dark-color);
+}

@@ -30,3 +30,32 @@ mybutton.addEventListener("click", topFunction);
 
 // ------------------ phoneScript ----------------
 
+// --------------- chatIcon ----------------
+
+document.querySelector("#appBtnChat").addEventListener("click", function () {
+  document.querySelector("#notification-box-chat").style.visibility = "visible";
+});
+
+document.querySelector("#closeBtnChat").addEventListener("click", function () {
+  document.querySelector("#notification-box-chat").style.visibility = "hidden";
+});
+
+// --------------- mapIcon ----------------
+
+document.querySelector("#appBtnMap").addEventListener("click", function () {
+  document.querySelector("#notification-box-map").style.visibility = "visible";
+});
+
+document.querySelector("#closeBtnMap").addEventListener("click", function () {
+  document.querySelector("#notification-box-map").style.visibility = "hidden";
+});
+
+// --------------- PhoneIcon ----------------
+
+document.querySelector("#appBtnPhone").addEventListener("click", function () {
+  document.querySelector("#notification-box-phone").style.visibility = "visible";
+});
+
+document.querySelector("#closeBtnPhone").addEventListener("click", function () {
+  document.querySelector("#notification-box-phone").style.visibility = "hidden";
+});
