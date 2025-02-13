@@ -23,3 +23,14 @@
     width: 90%;
     font-style: var(--italic-text);
 }
+
+@media(min-width: 350px) {
+    .title-container .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .description-container .description {
+        width: 95%;
+        font-size: .8rem;
+    }
+}

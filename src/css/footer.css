@@ -50,3 +50,17 @@
 .social-media-footer .icon:hover {
     color: var(--light-color);
 }
+
+@media(min-width: 350px) {
+    .footer .card {
+        height: 140px;
+    }
+
+    .footer .card .description {
+        font-size: .9rem;
+    }
+
+    .social-media-footer .icon {
+        font-size: 4rem;
+    }
+}

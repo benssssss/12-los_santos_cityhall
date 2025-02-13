@@ -34,3 +34,13 @@
     border-bottom: 2px solid var(--contrast-color);
     padding-bottom: .3rem;
 }
+
+@media(min-width: 350px) {
+    .text-container .subtitle {
+        font-size: 1.7rem;
+    }
+
+    .card-container .description {
+        font-size: .9rem;
+    }
+}

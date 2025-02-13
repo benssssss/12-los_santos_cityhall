@@ -75,9 +75,18 @@
 #nextBtn i,
 #nextBtn1 i {
     color: var(--strong-dark-color);
-    width: 15px;
-    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media(min-width: 350px) {
+
+    #prevBtn,
+    #prevBtn1,
+    #nextBtn,
+    #nextBtn1 {
+        height: 30px;
+        width: 30px;
+    }
 }
