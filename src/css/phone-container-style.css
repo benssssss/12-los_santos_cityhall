@@ -1,3 +1,7 @@
+.phone-main-container {
+    width: 275px;
+}
+
 .phone-main-container p {
     font-family: var(--phone-font);
     letter-spacing: .05rem;

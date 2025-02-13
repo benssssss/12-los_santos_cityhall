@@ -7,7 +7,7 @@
 .phone-page-container {
     flex-direction: column-reverse;
     gap: 2rem;
-    padding: 5rem 1.4rem
+    padding: 5rem 1.4rem;
 }
 
 .main-title,
@@ -41,3 +41,21 @@
     position: relative
 }
 
+@media(min-width: 350px) {
+
+    .main-title {
+        font-size: 2.1rem;
+    }
+
+    .phone-page-text-container .los-santos {
+        font-size: 3rem;
+    }
+    
+    .final-line {
+        font-size: 2.6rem;
+    }
+
+    .main-title {
+        line-height: 2.6rem;
+    }
+}

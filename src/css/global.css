@@ -28,7 +28,7 @@
 .city-guide-container,
 .footer-container {
     padding: 1.4rem;
-    width: var(--mobile-width);
+    width: var(--small-mobile-width);
 }
 
 .display-flex {
@@ -45,4 +45,16 @@
 
 .strong-dark-color {
     color: var(--strong-dark-color);
+}
+
+@media(min-width: 350px) {
+    .header-container,
+    .home-page-container,
+    .phone-page-container,
+    .program-iniciativas-container,
+    .services-container,
+    .city-guide-container,
+    .footer-container {
+        width: 350px;
+    }
 }
