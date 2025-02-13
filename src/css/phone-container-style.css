@@ -175,5 +175,5 @@
 .app-icon:hover {
     transition: 0.4s ease-in-out;
     background-color: var(--light-color);
-    color: var(--soft-dark-color);
+    color: var(--counter-main-color);
 }

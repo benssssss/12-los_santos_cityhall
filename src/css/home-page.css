@@ -6,7 +6,7 @@
 .home-page-container {
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100dvh;
     backdrop-filter: blur(2px);
     justify-content: center;
 }
