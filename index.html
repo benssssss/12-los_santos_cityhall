@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="src/css/all.min.css">
     <link rel="stylesheet" href="src/css/arrowDown.css">
     <link rel="stylesheet" href="src/css/scroll-to-top.css">
-    <link rel="stylesheet" href="src/css/program-slider.css">
+    <link rel="stylesheet" href="src/css/slider.css">
     <link rel="stylesheet" href="src/css/home-page.css">
     <link rel="stylesheet" href="src/css/phone-page.css">
     <link rel="stylesheet" href="src/css/phone-container-style.css">
+    <link rel="stylesheet" href="src/css/phone-notificaion-boxes.css">
     <link rel="stylesheet" href="src/css/programs-page.css">
     <link rel="stylesheet" href="src/css/services.css">
     <link rel="stylesheet" href="src/css/service-card-container.css">
@@ -75,6 +76,23 @@
                                 </div>
 
                                 <div class="main-screen display-flex">
+
+
+
+                                    <div class="notification-box">
+                                        <div class="box"><i class="fa-solid fa-x"></i></div>
+
+                                        <div class="border">
+                                        </div>
+
+                                        <div class="box-text">
+                                            <p>Receba notificações
+                                                sobre tributos, eventos
+                                                e compromissos
+                                                importantes</p>
+                                        </div>
+
+                                    </div>
                                     <div class="app-text-container display-flex">
                                         <div class="app-icons-container display-flex">
                                             <i class="app-icon fa-solid fa-message"></i>
@@ -262,7 +280,32 @@
                     <div class="city-guide-picture-container">
 
                         <div class="picture-frame yellow-frame">
-                            <img class="first" src="src/images/mount-chilliad.png" alt="">
+                            <div class="program-picture-container">
+
+                                <div class="carousel-item-1">
+                                    <img src="src/images/mount-chilliad.png" alt="">
+                                </div>
+
+                                <div class="carousel-item-1">
+                                    <img src="src/images/cj-house.png" alt="">
+                                </div>
+
+                                <div class="carousel-item-1">
+                                    <img src="src/images/penthouse.png" alt="">
+                                </div>
+
+                                <div class="carousel-item-1">
+                                    <img src="src/images/restaurants-composition.png" alt="">
+                                </div>
+
+                                <div class="carousel-item-1">
+                                    <img src="src/images/casino.png" alt="">
+                                </div>
+
+                                <button class="button" id="prevBtn1"><i class="fa-solid fa-arrow-right"></i></button>
+                                <button class="button" id="nextBtn1"><i class="fa-solid fa-arrow-right"></i></button>
+
+                            </div>
                         </div>
 
                     </div>
@@ -288,10 +331,10 @@
                                 <p class="description">Food trucks questionáveis à restaurantes
                                     de luxo em Rockford Hills.</p>
                             </div>
-
                         </div>
                     </div>
                 </div>
+
             </section>
         </main>
 
@@ -337,7 +380,9 @@
 
     <button id="myBtn" title="Go to Top"><i class="fa-solid fa-arrow-up"></i></button>
 
-    <script src="src/script.js"></script>
+    <script src="src/js/scriptall.js"></script>
+    <script src="src/js/scriptprogslider.js"></script>
+    <script src="src/js/scriptcityslider.js"></script>
 </body>
 
 

@@ -36,3 +36,8 @@
 .life-invader-type span {
     font-weight: var(--thin-font);
 }
+
+.main-screen {
+    position: relative
+}
+

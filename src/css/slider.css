@@ -37,28 +37,43 @@
     transition-duration: 0.4s;
 }
 
-#prevBtn {
+#prevBtn,
+#prevBtn1 {
     left: 10px;
 }
 
-#nextBtn {
+#nextBtn,
+#nextBtn1 {
     right: 10px;
 }
 
 #prevBtn,
-#nextBtn {
+#prevBtn1,
+#nextBtn,
+#nextBtn1 {
     background-color: var(--light-main-color);
     border-radius: 50%;
     height: 25px;
     width: 25px;
 }
 
-#prevBtn i {
+#prevBtn1,
+#nextBtn1 {
+    background-color: var(--contrast-color);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+#prevBtn i,
+#prevBtn1 i {
     transform: rotate(180deg);
 }
 
 #prevBtn i,
-#nextBtn i {
+#prevBtn1 i,
+#nextBtn i,
+#nextBtn1 i {
     color: var(--strong-dark-color);
     width: 15px;
     height: 15px;
