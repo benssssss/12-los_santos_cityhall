@@ -53,6 +53,10 @@
 }
 
 @media(min-width: 420px) {
+    .texts {
+        gap: 1rem;
+    }
+
     .pic-text .texts .icon {
         font-size: 4.5rem;
     }
@@ -63,8 +67,8 @@
     }
 
     .text .description {
-        font-size: 1.2rem;
-        width: 98%;
-        height: 90px;
+        font-size: 1.05rem;
+        width: 95%;
+        height: 80px;
     }
 }

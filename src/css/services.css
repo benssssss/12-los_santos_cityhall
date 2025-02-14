@@ -44,3 +44,14 @@
         font-size: 5rem;
     }
 }
+
+@media(min-width: 420px) {
+    .maintitle .title {
+        font-size: 4.5rem;
+        line-height: 4.2rem;
+    }
+
+    .maintitle .title span {
+        font-size: 6rem;
+    }
+}

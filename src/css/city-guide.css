@@ -44,3 +44,13 @@
         font-size: .9rem;
     }
 }
+
+@media(min-width: 420px) {
+    .text-container .subtitle {
+        font-size: 1.9rem;
+    }
+
+    .card-container .description {
+        font-size: 1.1rem;
+    }
+}

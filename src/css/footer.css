@@ -64,3 +64,26 @@
         font-size: 4rem;
     }
 }
+
+@media(min-width: 420px) {
+
+    .footer .card {
+        padding: 1.5rem;
+    }
+
+    .footer .card .title {
+        font-size: 1.5rem;
+    }
+
+    .footer .card {
+        height: 165px;
+    }
+
+    .footer .card .description {
+        font-size: 1.05rem;
+    }
+
+    .social-media-footer .icon {
+        font-size: 4.7rem;
+    }
+}
