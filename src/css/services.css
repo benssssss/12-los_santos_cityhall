@@ -78,3 +78,23 @@
         background-size: 1920px;
     }
 }
+
+@media(min-width: 920px) {
+
+    .services-container {
+        padding: 9rem 4.5rem
+    }
+
+    .maintitle .title {
+        font-size: 9.4rem;
+        line-height: 9rem;
+    }
+
+    .maintitle .title span {
+        font-size: 12.7rem;
+    }
+
+    .cards {
+        gap: 1.7rem;
+    }
+}

@@ -98,8 +98,12 @@
 }
 
 @media(min-width: 920px) {
+    .home-page-container {
+        padding: 7rem 4.5rem
+    }
+
     .home-page-container .title {
-        font-size: 12rem;
+        font-size: 11.4rem;
     }
 
     .home-page-container {
@@ -107,13 +111,13 @@
     }
 
     .home-page-container .description {
-        margin-top: 1.5rem;
+        margin-top: 1.4rem;
     }
 
     .home-page-container .description,
     .big-font {
         width: 84%;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 1.8rem;
     }
 }

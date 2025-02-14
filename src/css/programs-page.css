@@ -101,3 +101,38 @@
         gap: 2.2rem;
     }
 }
+
+@media(min-width: 920px) {
+
+
+    .program-text-container {
+        margin-bottom: 2rem;
+    }
+
+    .program-iniciativas-container {
+        padding: 9rem 4.5rem
+    }
+
+    .pic-text .texts .icon {
+        font-size: 7rem;
+    }
+
+    .texts .subtitle {
+        font-size: 4rem;
+        line-height: 3.7rem;
+    }
+
+    .text .description {
+        font-size: 1.9rem;
+        width: 90%;
+    }
+
+    .texts {
+        gap: 4rem;
+        margin-top: 4rem;
+    }
+
+    .subtitle-icon {
+        height: 140px;
+    }
+}

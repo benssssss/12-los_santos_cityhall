@@ -107,3 +107,32 @@
         font-size: 5.5rem;
     }
 }
+
+@media(min-width: 620px) {
+
+    .footer {
+        background-size: 2440px;
+    }
+
+    .footer-container {
+        padding: 5rem 4.5rem
+    }
+
+    .footer .card {
+        height: 240px;
+        padding: 2rem;
+    }
+
+    .footer .card .title {
+        font-size: 3rem;
+    }
+
+    .footer .card .description {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    .social-media-footer .icon {
+        font-size: 6rem;
+    }
+}

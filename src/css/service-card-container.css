@@ -54,3 +54,28 @@
         font-size: 1.4rem;
     }
 }
+
+@media(min-width: 420px) {
+    .title-container .subtitle {
+        font-size: 3rem;
+    }
+
+    .description-container .description {
+        font-size: 2.2rem;
+    }
+
+    .description-container {
+        background-size: cover;
+    }
+
+    .title-container .subtitle,
+    .description-container .description {
+        padding: .2rem 1.5rem;
+    }
+}
+
+@media(min-width: 420px) {
+    .description-container .description {
+        font-size: 2rem;
+    }
+}

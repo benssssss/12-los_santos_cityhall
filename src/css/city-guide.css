@@ -80,3 +80,23 @@
         font-size: 1.5rem;
     }
 }
+
+@media(min-width: 620px) {
+    .city-guide-container {
+        padding: 9rem 4.5rem
+    }
+
+    .city-guide {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-container .subtitle {
+        font-size: 3.5rem;
+    }
+
+    .card-container .description {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+}
