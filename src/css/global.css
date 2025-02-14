@@ -83,5 +83,6 @@
     .city-guide-container,
     .footer-container {
         width: 620px;
+        padding: 1.4rem 2.7rem;
     }
 }

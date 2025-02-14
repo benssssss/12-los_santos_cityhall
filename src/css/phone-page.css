@@ -81,19 +81,20 @@
     .phone-page-container {
         flex-direction: row;
         justify-content: space-between;
+        padding: 6rem 2.7rem;
     }
 
     .main-title {
-        font-size: 1.75rem;
-        line-height: 2.3rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
 
     .phone-page-text-container .los-santos {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .final-line {
-        font-size: 2.18rem;
+        font-size: 2rem;
     }
 
     .sponsor-text-container {

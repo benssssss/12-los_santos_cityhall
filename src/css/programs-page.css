@@ -4,7 +4,7 @@
 }
 
 .program-iniciativas-container {
-    padding: 6rem 1.4rem
+    padding: 5rem 1.4rem
 }
 
 .program-text-container .title,
@@ -74,18 +74,30 @@
 }
 
 @media(min-width: 620px) {
+
+    .program-iniciativas-container {
+        padding: 7rem 2.7rem
+    }
+
     .pic-text .texts .icon {
         font-size: 6rem;
     }
 
     .texts .subtitle {
-        font-size: 2.4rem;
-        line-height: 2.5rem;
+        font-size: 3.4rem;
+        line-height: 3.5rem;
     }
 
     .text .description {
-        font-size: 1.05rem;
-        width: 95%;
-        height: 80px;
+        font-size: 1.4rem;
+        width: 90%;
+    }
+
+    .subtitle-icon {
+        gap: 1.5rem;
+    }
+
+    .texts {
+        gap: 2.2rem;
     }
 }

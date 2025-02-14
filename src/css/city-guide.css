@@ -54,3 +54,29 @@
         font-size: 1.1rem;
     }
 }
+
+@media(min-width: 620px) {
+    .city-guide-container {
+        padding: 8rem 2.7rem;
+    }
+
+    .city-guide {
+        background-size: 1440px;
+    }
+
+    .city-guide .city-guide-text-container .text-container {
+        gap: 1.7rem;
+    }
+
+    .city-guide .city-guide-text-container .text-container .title {
+        margin-bottom: 2.4rem;
+    }
+
+    .text-container .subtitle {
+        font-size: 2.8rem;
+    }
+
+    .card-container .description {
+        font-size: 1.5rem;
+    }
+}

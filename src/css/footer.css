@@ -87,3 +87,25 @@
         font-size: 4.7rem;
     }
 }
+
+@media(min-width: 620px) {
+    
+    .footer .card {
+        height: 180px;
+    }
+
+    .footer .card .title {
+        font-size: 2.2rem;
+    }
+
+    .footer .card .description {
+        font-size: 1.3rem;
+        width: 95%;
+    }
+    
+    .social-media-footer .icon {
+        font-size: 5.5rem;
+    }
+
+
+}

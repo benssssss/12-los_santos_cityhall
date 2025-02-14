@@ -55,3 +55,26 @@
         font-size: 6rem;
     }
 }
+
+@media(min-width: 620px) {
+    .maintitle .title {
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+    }
+
+    .maintitle .title span {
+        font-size: 8.7rem;
+    }
+
+    .services-container {
+        padding: 8rem 2.7rem;
+    }
+
+    .cards {
+        gap: 1rem;
+    }
+
+    .services {
+        background-size: 1920px;
+    }
+}
