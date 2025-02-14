@@ -13,19 +13,21 @@
 
 .home-page-container .title {
     font-size: 6rem;
-    line-height: 5.2rem;
+
 }
 
 .home-page-container .title,
 .home-page-container .title span {
     font-family: var(--main-title-font);
+    display: block;
+    line-height: 5.2rem;
 }
 
 .home-page-container .description {
     letter-spacing: .02rem;
     font-size: .9rem;
     font-weight: var(--medium-font);
-    margin-top: 1.4rem;
+    margin-top: .9rem;
 }
 
 .home-page span {
@@ -43,6 +45,7 @@
 
     .home-page-container .description {
         font-size: 1rem;
+        margin-top: .5rem;
     }
 
     .big-font {
@@ -53,15 +56,43 @@
 
 @media(min-width: 420px) {
     .home-page-container .title {
-        font-size: 8rem;
+        font-size: 7rem;
         line-height: 7.2rem;
     }
 
     .home-page-container .description {
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
 
     .big-font {
         font-size: 3rem;
+    }
+}
+
+@media(min-width: 620px) {
+    .home-page-container .title {
+        font-size: 8.2rem;
+    }
+
+    .home-page-container .title,
+    .home-page-container .title span {
+        display: inline;
+    }
+
+    .home-page-container .title span {
+        margin-right: 1.2rem;
+    }
+
+    .home-page-container .description,
+    .big-font {
+        font-size: 1.1rem;
+    }
+
+    .big-font {
+        display: inline;
+    }
+
+    .home-page-container .description {
+        margin-top: 0rem;
     }
 }

@@ -103,5 +103,6 @@
 
     .phone-page {
         justify-content: center;
+        background-size: 1920px;
     }
 }
