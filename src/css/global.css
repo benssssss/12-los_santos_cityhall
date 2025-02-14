@@ -86,3 +86,16 @@
         padding: 1.4rem 2.7rem;
     }
 }
+
+@media(min-width: 920px) {
+
+    .header-container,
+    .home-page-container,
+    .phone-page-container,
+    .program-iniciativas-container,
+    .services-container,
+    .city-guide-container,
+    .footer-container {
+        width: 920px;
+    }
+}
