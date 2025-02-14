@@ -10,6 +10,12 @@
     padding: 5rem 1.4rem;
 }
 
+.sponsor-text-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+
 .main-title,
 .life-invader-type {
     font-size: 1.94rem;
@@ -67,5 +73,35 @@
 
     .final-line {
         font-size: 2.8rem;
+    }
+}
+
+@media(min-width: 620px) {
+
+    .phone-page-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-title {
+        font-size: 1.75rem;
+        line-height: 2.3rem;
+    }
+
+    .phone-page-text-container .los-santos {
+        font-size: 2.5rem;
+    }
+
+    .final-line {
+        font-size: 2.18rem;
+    }
+
+    .sponsor-text-container {
+        justify-content: center;
+        width: 45%;
+    }
+
+    .phone-page {
+        justify-content: center;
     }
 }
