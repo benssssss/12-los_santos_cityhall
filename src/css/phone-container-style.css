@@ -50,6 +50,7 @@
     background-color: var(--soft-dark-color);
     justify-content: space-between;
     padding: .3rem;
+    height: 35px;
 }
 
 .date-network,

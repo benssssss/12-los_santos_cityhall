@@ -48,6 +48,7 @@
 }
 
 @media(min-width: 350px) {
+
     .header-container,
     .home-page-container,
     .phone-page-container,
@@ -56,5 +57,18 @@
     .city-guide-container,
     .footer-container {
         width: 350px;
+    }
+}
+
+@media(min-width: 420px) {
+
+    .header-container,
+    .home-page-container,
+    .phone-page-container,
+    .program-iniciativas-container,
+    .services-container,
+    .city-guide-container,
+    .footer-container {
+        width: 420px;
     }
 }

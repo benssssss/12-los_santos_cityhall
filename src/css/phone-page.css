@@ -30,7 +30,6 @@
 
 .sponsorship {
     line-height: 1.7rem;
-    margin-top: 1.6rem;
 }
 
 .life-invader-type span {
@@ -51,11 +50,22 @@
         font-size: 3rem;
     }
 
-    .final-line {
-        font-size: 2.6rem;
-    }
-
     .main-title {
         line-height: 2.6rem;
+    }
+}
+
+@media(min-width: 420px) {
+    .main-title {
+        font-size: 2.6rem;
+        line-height: 2.9rem;
+    }
+
+    .phone-page-text-container .los-santos {
+        font-size: 3.5rem;
+    }
+
+    .final-line {
+        font-size: 2.8rem;
     }
 }

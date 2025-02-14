@@ -15,3 +15,10 @@
 #myBtn:hover {
     background-color: var(--contrast-color);
 }
+
+@media(min-width: 420px) {
+    #myBtn {
+        height: 50px;
+        width: 50px;
+    }
+}
