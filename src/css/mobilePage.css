@@ -175,4 +175,10 @@
     .sponsorship h3 {
         font-size: 1.6rem;
     }
+
+        .phone-page {
+        background-size: 135%;
+        background-position: -1200px -450px;
+        background-repeat: no-repeat;
+    }
 }
