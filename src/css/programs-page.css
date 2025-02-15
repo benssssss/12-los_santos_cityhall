@@ -206,3 +206,14 @@
         margin-top: 1rem;
     }
 }
+
+@media(min-width: 1440px) {
+    .text .description {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .texts .subtitle {
+        font-size: 2.3rem;
+    }
+}

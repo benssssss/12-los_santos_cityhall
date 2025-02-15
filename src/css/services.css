@@ -135,3 +135,13 @@
     }
 
 }
+
+@media(min-width: 1440px) {
+    .maintitle .title {
+        font-size: 6rem;
+    }
+
+    .maintitle .title span {
+        font-size: 6.8rem;
+    }
+}

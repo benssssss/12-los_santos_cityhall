@@ -112,3 +112,16 @@
         width: 1280px;
     }
 }
+
+@media(min-width: 1440px) {
+
+    .header-container,
+    .home-page-container,
+    .phone-page-container,
+    .program-iniciativas-container,
+    .services-container,
+    .city-guide-container,
+    .footer-container {
+        width: 1440px;
+    }
+}

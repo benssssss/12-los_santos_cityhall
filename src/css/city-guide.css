@@ -158,3 +158,28 @@
         margin: 0;
     }
 }
+
+
+@media(min-width: 1440px) {
+    .city-guide-text-container {
+        width: 50%;
+    }
+
+    .city-guide-picture-container {
+        width: 48%;
+    }
+
+    .card-container .description {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .text-container .subtitle {
+        font-size: 2.7rem;
+    }
+
+    .city-guide .city-guide-text-container .text-container .title-cityguide {
+        font-size: 4.5rem;
+
+    }
+}

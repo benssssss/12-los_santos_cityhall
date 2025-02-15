@@ -82,5 +82,14 @@
     .description-container .description {
         font-size: 1.1rem;
     }
+}
 
+@media(min-width: 1440px) {
+    .title-container .subtitle {
+        font-size: 2.2rem;
+    }
+
+    .description-container .description {
+        font-size: 1.45rem;
+    }
 }
