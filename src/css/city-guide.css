@@ -14,7 +14,13 @@
     gap: 1rem;
 }
 
-.city-guide .city-guide-text-container .text-container .title {
+.city-guide-text-container .title-cityguide {
+    font-size: 4.1rem;
+    line-height: 3.7rem;
+    color: var(--contrast-color);
+}
+
+.city-guide .city-guide-text-container .text-container .title-cityguide {
     width: var(--max-width);
     display: block;
 }
@@ -43,6 +49,11 @@
     .card-container .description {
         font-size: .9rem;
     }
+
+    .city-guide-text-container .title-cityguide {
+        font-size: 4.5rem;
+        line-height: 4.8rem;
+    }
 }
 
 @media(min-width: 420px) {
@@ -52,6 +63,10 @@
 
     .card-container .description {
         font-size: 1.1rem;
+    }
+
+    .city-guide-text-container .title-cityguide {
+        font-size: 5.3rem;
     }
 }
 
@@ -68,12 +83,12 @@
         gap: 1.7rem;
     }
 
-    .city-guide .city-guide-text-container .text-container .title {
+    .city-guide .city-guide-text-container .text-container .title-cityguide {
         margin-bottom: 2.4rem;
     }
 
     .text-container .subtitle {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
 
     .card-container .description {
@@ -81,7 +96,7 @@
     }
 }
 
-@media(min-width: 620px) {
+@media(min-width: 920px) {
     .city-guide-container {
         padding: 9rem 4.5rem
     }
@@ -98,5 +113,48 @@
     .card-container .description {
         font-size: 2rem;
         line-height: 2.4rem;
+    }
+
+    .city-guide .city-guide-text-container .text-container .title-cityguide {
+        font-size: 11rem;
+        line-height: 9rem;
+    }
+}
+
+@media(min-width: 1280px) {
+    .city-guide-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .city-guide-text-container {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .city-guide .city-guide-text-container .text-container {
+        gap: .7rem;
+        justify-content: center;
+    }
+
+    .text-container .subtitle {
+        font-size: 2.2rem;
+    }
+
+    .city-guide .city-guide-text-container .text-container {
+        gap: 0;
+    }
+
+    .card-container .description {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .city-guide .city-guide-text-container .text-container .title-cityguide {
+        line-height: 5rem;
+        font-size: 3.7rem;
+        margin: 0;
     }
 }

@@ -136,3 +136,31 @@
         font-size: 6rem;
     }
 }
+
+@media(min-width: 1280px) {
+    .cards-container {
+        flex-direction: row;
+    }
+
+    .footer .card {
+        height: 180px;
+        padding: 1.7rem;
+    }
+
+    .footer .card .title {
+        font-size: 1.5rem;
+    }
+
+    .footer .card .description {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+
+    .social-media-footer {
+        justify-content: start;
+    }
+
+    .social-media-footer .icon {
+        font-size: 4rem;
+    }
+}

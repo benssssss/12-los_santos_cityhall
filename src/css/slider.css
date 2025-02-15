@@ -9,7 +9,6 @@
 }
 
 .program-picture-container img,
-.city-guide-picture-container img,
 .service-picture-container img {
     width: 100%;
     height: 100%;
@@ -17,6 +16,12 @@
 }
 
 .program-picture-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.city-guide-picture-container .program-picture-container {
     width: 100%;
     overflow: hidden;
     position: relative;
