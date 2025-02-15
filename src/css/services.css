@@ -98,3 +98,40 @@
         gap: 1.7rem;
     }
 }
+
+@media(min-width: 1280px) {
+    .services-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .service-picture-container {
+        width: 55%;
+    }
+
+    .service-picture-container .picture-frame {
+        margin-top: 0;
+    }
+
+    .service-text-container {
+        width: 42%;
+    }
+
+    .maintitle .title {
+        font-size: 5.6rem;
+        line-height: 5.2rem;
+    }
+
+    .maintitle .title span {
+        font-size: 6.5rem;
+    }
+
+    .cards {
+        gap: .7rem;
+    }
+
+    .info-cards-container {
+        margin-top: 0.5rem;
+    }
+
+}

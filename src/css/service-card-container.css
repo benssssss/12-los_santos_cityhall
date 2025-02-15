@@ -73,3 +73,14 @@
         padding: .2rem 1.5rem;
     }
 }
+
+@media(min-width: 1280px) {
+    .title-container .subtitle {
+        font-size: 1.7rem;
+    }
+
+    .description-container .description {
+        font-size: 1.1rem;
+    }
+
+}
