@@ -131,7 +131,8 @@
         line-height: 2rem;
     }
 
-    .sponsorship .life-invader-type span, .sponsorship .life-invader-type {
+    .sponsorship .life-invader-type span,
+    .sponsorship .life-invader-type {
         font-size: 2.28rem;
     }
 
@@ -144,5 +145,34 @@
         background-position: -700px -250px;
         background-repeat: no-repeat;
     }
+}
 
+@media(min-width: 1280px) {
+    .main-title {
+        font-size: 3.1rem;
+        line-height: 3.5rem;
+    }
+
+    .phone-page-text-container .los-santos {
+        font-size: 4.45rem;
+    }
+
+    .final-line {
+        font-size: 3.84rem;
+    }
+
+    .phone-page {
+        background-size: 135%;
+        background-position: -950px -250px;
+        background-repeat: no-repeat;
+    }
+
+    .sponsorship .life-invader-type span,
+    .sponsorship .life-invader-type {
+        font-size: 2.58rem;
+    }
+
+    .sponsorship h3 {
+        font-size: 1.6rem;
+    }
 }

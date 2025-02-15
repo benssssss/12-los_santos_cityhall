@@ -3,6 +3,10 @@
     background-size: cover;
 }
 
+.program-text-container .title-1 {
+    display: none;
+}
+
 .program-iniciativas-container {
     padding: 5rem 1.4rem
 }
@@ -134,5 +138,72 @@
 
     .subtitle-icon {
         height: 140px;
+    }
+}
+
+@media(min-width: 1280px) {
+    .program-text-container .title {
+        display: none;
+    }
+
+    .program-text-container .title-1 {
+        display: block;
+    }
+
+    .program-text-container {
+        margin: 0;
+    }
+
+    .pic-text {
+        display: flex;
+    }
+
+    .texts {
+        flex-direction: column;
+        width: 42%;
+        margin-top: 0;
+        gap: 0rem;
+        height: 520px;
+    }
+
+    .program-picture-container {
+        width: 55%;
+
+    }
+
+    .program-picture-container .picture-frame {
+        margin: 0;
+    }
+
+    .text .description {
+        font-size: 1.4rem;
+    }
+
+    .texts .subtitle {
+        font-size: 2rem;
+    }
+
+    .pic-text .texts .icon {
+        font-size: 2.5rem;
+    }
+
+    .subtitle-icon {
+        height: 50px;
+        align-items: first baseline;
+        gap: .7rem;
+    }
+
+    .text .description {
+        font-size: 1.1rem;
+        margin-top: .5rem;
+    }
+
+    .pic-text {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mais-verde {
+        margin-top: 1rem;
     }
 }

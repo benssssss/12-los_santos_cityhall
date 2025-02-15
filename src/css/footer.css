@@ -108,7 +108,7 @@
     }
 }
 
-@media(min-width: 620px) {
+@media(min-width: 920px) {
 
     .footer {
         background-size: 2440px;
@@ -119,7 +119,7 @@
     }
 
     .footer .card {
-        height: 240px;
+        height: 260px;
         padding: 2rem;
     }
 
