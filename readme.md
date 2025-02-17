@@ -1,19 +1,19 @@
 
 # Prefeitura de Los Santos | Landing Page
-### Acesse todos os serviços disponíveis no portal oficial da cidade de los santos, como informações de contato, dados tributários e programas beneficente.
+### Acesse todos os serviços disponíveis no portal oficial da cidade de Los Santos, como informações de contato, dados tributários e programas beneficente.
 
 ---
-    1 - Home: Seção inicial com título, subtítulo e seta animada (arrowDown).
+1 - Home: Seção inicial com título, subtítulo e seta animada (arrowDown).
 
-    2 - Mobile: Título e anúncio do patrocinador. Fornece informações sobre o aplicativo mobile, possibilitando acesso ao portal da cidade pelo celular. Inclui uma composição de um celular feita com JavaScript que mostra informações ao clicar nos ícones.
+2 - Mobile: Título e anúncio do patrocinador. Fornece informações sobre o aplicativo mobile, possibilitando acesso ao portal da cidade pelo celular. Inclui uma composição de um celular feita com JavaScript que mostra informações ao clicar nos ícones.
 
-    3 - Programs: Fornece informações sobre programas e iniciativas realizadas na cidade. Inclui um (slider carrossel) mostrando imagens que ilustram esses programas.
+3 - Programs: Fornece informações sobre programas e iniciativas realizadas na cidade. Inclui um slider (carrossel) mostrando imagens que ilustram esses programas.
 
-    4 - Serviços Online: Mostra todas as informações possíveis de serem consultadas no portal, como: informações tributárias, emissão de documentos e uma área de feedback.
+4 - Serviços Online: Mostra todas as informações possíveis de serem consultadas no portal, como: informações tributárias, emissão de documentos e uma área de feedback.
 
-    5 - Guia da Cidade: Contém informações sobre pontos turísticos e gastronomia. | Inclui um (slider carrossel) mostrando imagens que ilustram os pontos turísticos.
+5 - Guia da Cidade: Contém informações sobre pontos turísticos e gastronomia. Inclui um slider (carrossel) mostrando imagens que ilustram os pontos turísticos.
 
-    6 - Footer: Informações adicionais, isenção de responsabilidade e acesso a mídias sociais
+6 - Footer: Informações adicionais, isenção de responsabilidade e acesso a mídias sociais.
 
 ---
 
@@ -29,20 +29,20 @@
 ## 1 - Design
 ### Design e layout feito usando pacote Adobe 
 
-- Obter referência e layout
+- Obter referências e layout.
 
-- Escolher tema e obter assets
+- Escolher tema e obter assets.
 
-- Escolher cores
+- Escolher cores.
 
 ## 2 - Planejamento
 
-- Fazer desenho de caixas (grid-flex) antes de escrever qualquer código, definindo quais elementos/tags serão usadas
+- Fazer desenho de caixas (grid-flex) antes de escrever qualquer código, definindo quais elementos/tags serão usadas.
 
 ## 3 - Código
 
-### Arrow Down (Home Section)
-- Foi implementada uma ArrowDown com animação de bounce usando CSS puro
+- ## Arrow Down (Home Section)
+    - #### Foi implementada uma ArrowDown com animação de bounce usando CSS puro
 
 ---
 
@@ -69,71 +69,132 @@
 
 ---
 
-### Home Section
-- Defini um h1 (title) e p (description)
+- ## Celular Interativo (Mobile Section) 
+    - #### Foi implementado um sistema de popup de mensagens ao clicar nos ícones presentes no celular. Dentro dessa mensagem, há um botão para fechar a notificação e voltar para a página inicial.
+    
+---
+#### 1 - Cria um EventListener em um dos botões (ícones do celular) e ativa uma função que abre (torna visível) a caixa com texto que estava escondida.
 
-Defini Display: flex; com flex-direction: column; e criei 5 containers (uma para cada tecnologia), defini um único container para todos os elementos para estilizar eles apenas uma vez (usando o mesmo container para todas as tecnologias, apenas adicionando mais uma classe para estilos individuais) 
+        #notification-box-chat {
+            visibility: hidden;
+            }
+        
+        document.querySelector("#appBtnChat").addEventListener("click", function () { 
+            document.querySelector("#notification-box-chat").stylevisibility = "visible";
+        });
 
-## Projects (Projetos) Section
 
-Novamente defini um container para ser usado para cada projeto para estilizar eles apenas uma vez, apenas mudando dados no HTML, abaixo do GIF eu defini um "p" para o título, foi usado font-awesome novamente no elemento repositório, um "anchor" foi definido com um link para o repositório no GitHub do determinado projeto, assim como o link para o GitHub Pages
+#### 2 - Cria um EventListener no botão que está dentro da caixa de texto e ativa uma função que fecha (esconde) a caixa com texto que estava aberta.
 
-:hovers foram adicionados nos elementos "Repositórios e GitHub Pages"
+        <div class="box"><i id="closeBtnChat" class="fa-solid fa-x"></i></div>
 
-## Contact (Contato) Section
+        document.querySelector("#closeBtnChat").addEventListener("click", function () {
+            document.querySelector("#notification-box-chat").style.visibility = "hidden";
+            });
 
-A seção Contato, assim como a "Hero" é composto apenas por texto e os ícones de mídia social (usei os mesmos estilos usados na "hero", mudando apenas a cor dos ícones e do :hover dos mesmos)
+<img src="./src/readme/mobileApps.gif">
 
-## Responsividade
+---
 
-Utilizei 4 break points
+- ## Slider Carrossel (Programs | Guia da Cidade Section)
+    - #### Foi implementado um slider carrossel nas duas seções, possibilitando inserir várias imagens relacionadas à seção.
 
-### 320px
-- Tamanho usado para fazer o layout inicial (mobile-first)
+  #### 1 - Espera todo o index.html (elementos DOM) ser carregado para rodar o código | Guarda os elementos com Id "carousel-item" em uma NodeList (const carouselItems) | Indica qual o slide atualmente mostrado (index 0 = primeiro slide).
 
-### 440px
-- Tamanhos de fontes da "hero page" foram alteradas para melhor visibilidade 
-- Tamanho das imagens "GIF" foram alteradas para 95% da tela 
+            document.addEventListener("DOMContentLoaded", function () {
+            const carouselItems = document.querySelectorAll('.carousel-item');
+            let currentIndex = 0;
+  ---
 
-### 768px 
-- Textos da "hero page" e "contact-page" foram alinhadas na esquerda
-- Ícones da "hero page" e "contact-page" foram alinhadas na direita
-- Textos novamente foram redimensionados para melhor visibilidade
-- Project Page foi definida para flex-direction: column;
-- A propriedade flex-wrap: wrap; foi definida para haver a quebra para segunda linha se a largura de um conjunto de elementos for maior que a área disponível em seu "container-parent" 
-- Largura do container dos Projetos foram definidos para caberem apenas 2 em cada coluna 
+    #### 2 - Esconde todos os slides usando display: none; | Mostra o slide do índice específico (carouselItems[index]) usando display: block;.
 
-### 1280px
-- Todos os elementos foram escalados para melhor visibilidade
+            function showSlide(index) {
+                carouselItems.forEach(item => {
+                item.style.display = 'none';
+                });
+                carouselItems[index].style.display = 'block';
+            }
+ 
+  ---
 
-### Fazer versionamento quando;
-- Html escrito
-- Css escrito
-- Clean code
-- Ajuste de metadata e inserção de "Readme.md"
+    #### 3 - Move para o próximo slide | Aumenta +1 o valor do currentIndex | Se currentIndex excede o número de slides (carouselItems.length), ele volta para 0 usando o operador (%) | Executa a função nextSlide() e mostra o próximo slide.
+
+             function nextSlide() {
+                currentIndex = (currentIndex + 1) % carouselItems.length;
+                showSlide(currentIndex);
+            }
+            
+  ---
+
+    #### 3 - Move para o slide anterior | Diminui -1 o valor do currentIndex | Se currentIndex se torna negativo, ele vai para o último slide usando (currentIndex - 1 + carouselItems.length) % carouselItems.length | Executa a função showSlide() e mostra o novo slide.
+
+            function previousSlide() {
+                currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+                showSlide(currentIndex);
+            }
+  
+  ---
+
+    #### 4 -  Mostra o primeiro slide.
+
+            showSlide(currentIndex);
+
+  ---
+   
+    #### 5 - Define um EventListener e linka cada função com o respectivo botão (botão de próximo e anterior).
+
+            document.getElementById('nextBtn').addEventListener('click', nextSlide);
+            document.getElementById('prevBtn').addEventListener('click', previousSlide);
+            });
+
+---
+
+<img src="./src/readme/carouselSlider.gif">
+
+---
+
+- ## Botão BackToTop (Todas as seções)
+    - #### Foi implementado um botão para voltar para a primeira seção após um scroll acontecer.
+
+  <img src="./src/readme/scrollToTop.gif">
 
 # Tecnologias utilizadas
 - HTML5 Markup 
 - CSS
+- JavaScript
+- DOM Manipulation
 - Clean Code
-- Photoshop
 - Illustrator
 - Responsividade
 
 # O que eu aprendi
 
 #### CSS
-- Usar wrap e elementos de larguras fixas para criar uma lista que quebra para uma segunda linha quando o tamanho de seu container pai for menor que esse tamanho
 
-- Uso de Display: grid; para criar paginas que tenham várias seções uma abaixo da outra (como em uma landing page)
+- Entender mais claramente como linkar elementos filhos aos seus pais usando positions.
 
-- Usar ícones da biblioteca do font-awesome
+- Prática e uso de conceitos sólidos de responsividade, como breakpoints e mudança de direção de elementos com flex: column e row.
 
-- Usar conceitos sólidos de responsividade como break points, e mudança de sentido de elementos com flex: column e row
+---
+
+#### JavaScript
+
+- Sendo minha primeira vez usando JavaScript em um projeto, consegui entender melhor como criar funções e utilizá-las, manipular elementos com JavaScript (DOM manipulation), e também como organizar os arquivos JS de uma maneira melhor, inserindo nomes e usando um arquivo para cada funcionalidade.
+
+---
 
 # Dificuldades
 
-Alinhamento vertical de texto "solucionado usando align-items: baseline;", quebra de elementos em resoluções menores por falta de responsividade 
+Usar a mesmas linhas de código JS em mais de um slider, o loop entre diferentes sliders estava acontecendo, ou seja, imagens do slider 1 estavão aparecendo no slider 2, resolvi definindo um nome diferente para os botões usados 
+
+- ## Slider
+        document.getElementById('nextBtn').addEventListener('click', nextSlide);
+        document.getElementById('prevBtn').addEventListener('click', previousSlide);
+
+- ## Slider 2
+
+        document.getElementById('nextBtn1').addEventListener('click', nextSlide);
+        document.getElementById('prevBtn1').addEventListener('click', previousSlide);
 
 ---
 
@@ -141,4 +202,4 @@ Alinhamento vertical de texto "solucionado usando align-items: baseline;", quebr
 ### Jefferson Augusto (a.k.a Benssssss) 
 ## [LinkedIn](https://www.linkedin.com/in/benssssss/)
 
-## Projeto n.º6
+## Projeto n.º12
