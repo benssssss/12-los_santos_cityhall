@@ -99,7 +99,7 @@
 
     .sponsor-text-container {
         justify-content: center;
-        width: 37%;
+        width: 45%;
     }
 
     .phone-page {
@@ -145,6 +145,10 @@
         background-position: -700px -250px;
         background-repeat: no-repeat;
     }
+
+    .sponsor-text-container {
+        width: 400px;
+    }
 }
 
 @media(min-width: 1280px) {
@@ -176,7 +180,11 @@
         font-size: 1.6rem;
     }
 
-        .phone-page {
+    .sponsor-text-container {
+        width: 475px;
+    }
+
+    .phone-page {
         background-size: 135%;
         background-position: -1200px -450px;
         background-repeat: no-repeat;
